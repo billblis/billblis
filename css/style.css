@@ -1,0 +1,30 @@
+.jumbotron{
+    padding-top: 9rem;
+    padding-bottom: 7rem;
+    background-color: #fa8072;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+#school {
+    background-color:#fa8072;
+    padding-top: 1rem;
+    color: white;
+  }
+  #activities {
+    background-color:white;
+    padding-top: 1rem;
+    color:black;
+  }
+  .footer{
+    padding: 20px 0;
+    background-color: #B22222;
+    color:white;
+    text-align: center;  
+}
+#contact {
+    background-color:#fa8072;
+    padding-top: 1rem;
+    color: white;
+}
