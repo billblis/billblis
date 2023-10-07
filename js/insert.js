@@ -11,25 +11,21 @@ setInner("pengantarProposal", `
 `);
 
 //Latar Belakang
-let listLatarBelakang = data.proposal.latarBelakang4.map((item, index) => {
-    return `<li>${item}</li>`;
-});
 setInner("latarBelakangProposal", `
 <h2>Latar Belakang</h2>
 <p>${data.proposal.latarBelakang1}</p>
 <p>${data.proposal.latarBelakang2}</p>
 <p>${data.proposal.latarBelakang3}</p>
-<ul>${listLatarBelakang.join("")}</ul>
-<p>${data.proposal.latarBelakang5}</p>
 `);
 
-//Deskripsi Website
-let listDeskripsiWebsite = data.proposal.deskripsiWebsite.map((item, index) => {
+//Kegunaan Website
+let listKegunaanWebsite = data.proposal.kegunaanWebsite2.map((item, index) => {
     return `<li>${item}</li>`;
 })
-setInner("deskripsiWebsite", `
-<h2>Deskripsi Website</h2>
-<ul>${listDeskripsiWebsite.join("")}</ul>
+setInner("kegunaanWebsite", `
+<h2>Kegunaan Website</h2>
+<p>${data.proposal.kegunaanWebsite1}</p>
+<ul>${listKegunaanWebsite.join("")}</ul>
 `);
 
 //DesaindanFungsionalitas
