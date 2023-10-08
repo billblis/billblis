@@ -4,16 +4,16 @@ import { setInner } from "https://jscroot.github.io/element/croot.js";
 // console.log(`${data.article.judulProposal}`)
 setInner("judulProposal", data.proposal.judulProposal);
 
+
 //deskripsi aplikasi
 setInner("deskripsi", `
 <h2>Deskripsi Aplikasi</h2>
-<p>${data.deskripsi.juduldeskripsi}</p>
 <p>${data.deskripsi.deskripsi1}</p>
 <p>${data.deskripsi.deskripsi2}</p>
 `);
 
  //team
- setInner("namateam", `
+ setInner("team", `
      <p>${data.team.name1}</p>
      <p>${data.team.npm1}</p>
      <p>${data.team.name2}</p>
