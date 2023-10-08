@@ -19,15 +19,11 @@
   }
   .footer{
     padding: 20px 0;
-    background-color:#fa8072;
+    background-color:#ffff;
     color:black;
     text-align: center;  
 }
-#contact {
-    background-color:#fa8072;
-    padding-top: 1rem;
-    color: white;
-}
+
 /* Animasi geser dari kiri ke kanan */
 @keyframes slideIn {
   from {
