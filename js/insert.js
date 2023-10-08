@@ -12,13 +12,13 @@ setInner("deskripsi", `
 <p>${data.deskripsi.deskripsi2}</p>
 `);
 
- //team
- setInner("team", `
-     <p>${data.team.name1}</p>
-     <p>${data.team.npm1}</p>
-     <p>${data.team.name2}</p>
-     <p>${data.team.npm2}</p>
- `)
+//  //team
+//  setInner("team", `
+//      <p>${data.team.name1}</p>
+//      <p>${data.team.npm1}</p>
+//      <p>${data.team.name2}</p>
+//      <p>${data.team.npm2}</p>
+//  `)
 
 //Pengantar
 setInner("pengantarProposal", `
