@@ -10,6 +10,13 @@ setInner("pengantarProposal", `
 <p>${data.proposal.pengantarProposal}</p>
 `);
 
+//abstrak
+setInner("abstrak", `
+<h2>Abstrak</h2>
+<p>${data.proposal.abstrak1}</p>
+<p>${data.proposal.abstrak2}</p>
+`);
+
 //Latar Belakang
 setInner("latarBelakangProposal", `
 <h2>Latar Belakang</h2>

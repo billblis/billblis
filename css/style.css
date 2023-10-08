@@ -28,3 +28,36 @@
     padding-top: 1rem;
     color: white;
 }
+/* Animasi geser dari kiri ke kanan */
+@keyframes slideIn {
+  from {
+      transform: translateX(-100%);
+  }
+  to {
+      transform: translateX(0);
+  }
+}
+
+/* Animasi muncul dari bawah ke atas */
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+/* Menggunakan animasi slideIn selama 1 detik dengan efek ease-in-out */
+#team .col-6 img {
+  animation: slideIn 1s ease-in-out;
+}
+
+/* Menggunakan animasi fadeInUp selama 1 detik dengan delay 0.1s */
+#team h1,
+#team .btn {
+  animation: fadeInUp 1s ease-in-out;
+  animation-delay: 0.1s;
+}
