@@ -1,11 +1,11 @@
 {
     "title": "Proposal Proyek 3",
     "description": "Proposal Proyek 3 ",
-    "team": [{
+    "team": {
         "name": "",
         "npm": "",
         "email":""
-    }],
+    },
     "home":{
         "title": "Proposal Proyek 3",
         "description": "Proposal Proyek 3"
@@ -36,9 +36,5 @@
         "kesimpulan": "Aplikasi pencatatan keuangan telah mengalami perkembangan yang signifikan dari metode manual yang rentan terhadap kesalahan dan memakan waktu, menjadi solusi efisien yang dapat diakses secara fleksibel. Dalam perancangan aplikasi ini, fokus utama adalah memberikan pengguna dashboard yang informatif, meliputi saldo pemasukan, saldo pengeluaran, sisa uang, serta grafik batang dan diagram lingkaran yang memvisualisasikan perbandingan saldo. Selain itu, terdapat fitur pencatatan pemasukan dan pengeluaran yang detail, serta laporan yang dapat diunduh dan diekspor ke Excel. Aplikasi ini memiliki antarmuka pengguna yang ramah, tampilan yang ringkas, dan responsif terhadap berbagai perangkat.",
         "kesimpulan2": "Manfaat bagi pengguna meliputi kesadaran lebih tinggi dalam mengelola uang, pelacakan pengeluaran, pengaturan anggaran, tabungan untuk tujuan masa depan, pemantauan pertumbuhan kekayaan, akses mudah dari berbagai perangkat, serta penghematan waktu yang sebelumnya dihabiskan untuk pencatatan manual.Aplikasi ini didukung oleh teknologi canggih dan desain intuitif, memberikan gambaran jelas tentang keuangan pribadi dengan grafik dan laporan yang mudah dimengerti. Strategi pemasaran berbasis konten akan digunakan untuk menyediakan panduan keuangan, tips manajemen uang, dan artikel berkualitas tinggi. Melalui pendekatan ini, aplikasi pencatatan keuangan diharapkan dapat membantu individu dan keluarga mengelola keuangan mereka dengan lebih baik dan meningkatkan stabilitas keuangan mereka.",
         "kesimpulan3": ""
-    },
-    "video": [{
-        "title": "Proposal Proyek 3",
-        "description": "Proposal Proyek 3"
-    }]
+    }
 }
