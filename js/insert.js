@@ -4,26 +4,13 @@ import { setInner } from "https://jscroot.github.io/element/croot.js";
 // console.log(`${data.article.judulProposal}`)
 setInner("judulProposal", data.proposal.judulProposal);
 
- //Base
- setInner('basetitle', data.home.title);
- setInner('basedesc', data.home.description);
-
- //Cover
- setInner("judulCover", data.cover.judulCover);
- setInner("proyek", data.cover.proyekProposal);
- setInner("tujuan", `
-     <br> ${data.cover.tujuan[0]}
-     <br> ${data.cover.tujuan[1]}
-     <br> ${data.cover.tujuan[2]}
- `);
- setInner("namateam", `
-     <p>${data.team[0].name}</p>
-     <p>${data.team[1].name}</p>
- `)
- setInner("prodi", data.cover.prodi);
- setInner("univ", data.cover.univ);
- setInner("kota", data.cover.kota);
- setInner("tahun", data.cover.tahun);
+//deskripsi aplikasi
+setInner("deskripsi", `
+<h2>Deskripsi Aplikasi</h2>
+<p>${data.deskripsi.juduldeskripsi}</p>
+<p>${data.deskripsi.deskripsi1}</p>
+<p>${data.deskripsi.deskripsi2}</p>
+`);
 
 //Pengantar
 setInner("pengantarProposal", `
@@ -86,13 +73,3 @@ setInner("kesimpulan", `
 <p>${data.proposal.kesimpulan2}</p>
 <p>${data.proposal.kesimpulan3}</p>
 `);
-
- //Team
- setInner("name2", data.team[0].name);
- setInner("email2", data.team[0].email);
- setInner("npm2", data.team[0].npm);
- setInner("name1", data.team[1].name);
- setInner("email1", data.team[1].email);
- setInner("npm1", data.team[1].npm);
- setInner("photo1", `<img src="${data.team[1].photo}" alt="image" width="112" height="28">`);
- setInner("photo2", `<img src="${data.team[0].photo}" alt="image" width="112" height="28">`);

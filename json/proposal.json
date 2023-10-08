@@ -1,25 +1,23 @@
 {
     "title": "Proposal Proyek 3",
     "description": "Proposal Proyek 3 ",
-    "team": [
-        {
-            "name": "Fedhira Syaila Putri Azzahra",
-            "npm": "1214028",
-            "email": "pedirasyaila@gmail.com",
-            "photo": "image/IMG_6838.jpg"
-        },
-        {
-            "name": "Marlina Magdalena Lubis",
-            "npm": "1214040",
-            "email": "lubismarlina5@gmail.com",
-            "photo": "image/IMG-20230122-WA0004.jpg"
-        }
-    ],
-    
+    "team": [{
+        "name": "",
+        "npm": "",
+        "email":""
+    }],
     "home":{
         "title": "Proposal Proyek 3",
         "description": "Proposal Proyek 3"
     },
+
+    "deskripsi":{
+        "juduldeskripsi": "Deskripsi Aplikasi",
+        "deskripsi1": "Aplikasi Pencatatan Keuangan Harian adalah sahabat terpercaya Anda dalam mengelola keuangan sehari-hari.Aplikasi pencatatan keuangan harian adalah sebuah alat yang dirancang untuk membantu pengguna secara efisien melacak dan mengelola keuangan mereka sehari-hari. Dengan antarmuka yang sederhana dan mudah digunakan, aplikasi ini memungkinkan pengguna untuk mencatat semua transaksi pemasukan dan pengeluaran dengan cepat. Aplikasi ini menyediakan cara sederhana dan praktis untuk mencatat semua transaksi keuangan sehari-hari, termasuk pemasukan dan pengeluaran",
+        "deskripsi2": "Fitur-fitur seperti laporan harian, mingguan, dan bulanan memberikan gambaran yang jelas tentang pola pengeluaran, membantu pengguna untuk mengatur anggaran, menabung, dan menghindari utang yang tidak perlu. Akses mudah melalui perangkat apa pun memungkinkan pengguna untuk melihat dan mengelola finansial mereka kapan saja dan di mana saja. Dengan aplikasi ini, pengguna dapat menghemat waktu yang sebelumnya dihabiskan untuk pencatatan manual, sambil memantau pertumbuhan kekayaan mereka dari waktu ke waktu."
+    },
+
+
     "proposal": {
         "judulProposal": "Pengembangan Web Billblis Pencatatan Keuangan Dengan Micro Frontend & Micro Service Developer",
         "pengantarProposal": "Kami berharap bahwa solusi ini akan membantu individu, usaha kecil, dan perusahaan besar dalam meningkatkan transparansi, mengurangi kesalahan manusia, dan mengoptimalkan pengelolaan keuangan mereka. Dalam proposal ini, kami akan menjelaskan lebih detail mengenai fitur-fitur, manfaat, dan langkah-langkah implementasi sistem ini.",
@@ -42,15 +40,5 @@
     "video": [{
         "title": "Proposal Proyek 3",
         "description": "Proposal Proyek 3"
-    }],
-    "cover":{
-        "judulCover": "Website Prediksi Sentimen Menggunakan Model Hybrid",
-        "proyekProposal": "Proposal Proyek 3",
-        "tujuan":["Ditujukan sebagai salah satu syarat","Untuk Memenuhi Kelulusan Matakuliah Proyek III","Program Studi DIV Teknik Informatika"],
-        "logo": "image/logoulbi.png",
-        "prodi":"PROGRAM DIPLOMA IV TEKNIK INFORMATIKA",
-        "univ":"UNIVERSITAS LOGISTIK & BISNIS INTERNASIONAL",
-        "kota":"BANDUNG",
-        "tahun":"2023"
-    }
+    }]
 }
