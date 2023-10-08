@@ -1,11 +1,21 @@
 {
     "title": "Proposal Proyek 3",
     "description": "Proposal Proyek 3 ",
-    "team": [{
-        "name": "",
-        "npm": "",
-        "email":""
-    }],
+    "team": [
+        {
+            "name": "Fedhira Syaila Putri Azzahra",
+            "npm": "1214028",
+            "email": "pedirasyaila@gmail.com",
+            "photo": "image/IMG_6838.jpg"
+        },
+        {
+            "name": "Marlina Magdalena Lubis",
+            "npm": "1214040",
+            "email": "lubismarlina5@gmail.com",
+            "photo": "image/IMG-20230122-WA0004.jpg"
+        }
+    ],
+    
     "home":{
         "title": "Proposal Proyek 3",
         "description": "Proposal Proyek 3"
@@ -32,5 +42,15 @@
     "video": [{
         "title": "Proposal Proyek 3",
         "description": "Proposal Proyek 3"
-    }]
+    }],
+    "cover":{
+        "judulCover": "Website Prediksi Sentimen Menggunakan Model Hybrid",
+        "proyekProposal": "Proposal Proyek 3",
+        "tujuan":["Ditujukan sebagai salah satu syarat","Untuk Memenuhi Kelulusan Matakuliah Proyek III","Program Studi DIV Teknik Informatika"],
+        "logo": "image/logoulbi.png",
+        "prodi":"PROGRAM DIPLOMA IV TEKNIK INFORMATIKA",
+        "univ":"UNIVERSITAS LOGISTIK & BISNIS INTERNASIONAL",
+        "kota":"BANDUNG",
+        "tahun":"2023"
+    }
 }
